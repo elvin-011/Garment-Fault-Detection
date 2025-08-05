@@ -1,0 +1,12 @@
+torch
+opencv-python
+numpy
+matplotlib
+pandas
+seaborn
+scikit-learn
+Pillow
+ultralytics>=8.0.0
+onnx==1.12.0
+onnxslim>=0.1.59
+onnxruntime

@@ -1,0 +1,13 @@
+train: D:\Garment fault detection Project\train\images
+val: D:\Garment fault detection Project\valid\images
+test: D:\Garment fault detection Project\test_final _og\images
+
+nc: 6
+names: ['Broken_button', 'Button_hike', 'Color_defect', 'Foreign_yarn', 'Hole', 'Sewing_error']
+
+roboflow:
+  workspace: garment-fault-detection
+  project: garment-test-c8akk
+  version: 1
+  license: Private
+  url: https://app.roboflow.com/garment-fault-detection/garment-test-c8akk/1
